@@ -26,7 +26,7 @@ git push -u origin main
 - ✅ 优秀的访问速度
 - ✅ **白天** / **黑夜** 模式可用
 - ✅ 为丰富文章内容提供的各种组件
-  - 多样的 Alert
+  - 多样的 Alert 
   - 代码框复制按钮
   - 更多 [daisyUI](https://daisyui.com/) 支持的内容……
 - ✅ 为丰富页面内容提供的各种组件
