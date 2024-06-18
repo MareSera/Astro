@@ -1,39 +1,44 @@
+git add .
+git commit -m "commit"
+git push -u origin main 
+
+
 # 🧊 Frosti
 
-**A clean, elegant, and fast static blog template! Developed with [Astro](https://astro.build/)!**
+**一个简洁、优雅、快速的静态博客模板！使用 [Astro](https://astro.build/) 开发！**
 
 [**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 中文 README**](https://github.com/EveSunMaple/Frosti/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://www.saroprock.com)
 
 > [!NOTE]
-> For a better reading experience, please visit -> https://frosti.saroprock.com
+> 更好的阅读体验请前往 -> https://frosti.saroprock.com
 
-## 🖥️ Preview
+## 🖥️ 预览
 
 ![view](https://frosti.saroprock.com/view.png)
 
-## ⏲️ performance
+## ⏲️ 性能
 
 ![speed](./400.png)
 
-## ✨ Features
+## ✨ 特点
 
-- ✅ View transition animations
-- ✅ Excellent loading speed
-- ✅ **Light** / **Dark** mode available
-- ✅ Various components for enriching article content
-  - Diverse alerts
-  - Code block copy buttons
-  - More content supported by [daisyUI](https://daisyui.com/)……
-- ✅ Various components for enriching page content
-  - Timeline component
-  - Friends card component
-- ✅ Comment system built with [Waline](https://waline.js.org/)
-- ✅ Beautiful pages built with [Tailwind CSS](https://tailwindcss.com/) and [daisyUI](https://daisyui.com/)
+- ✅ 视图过渡动画
+- ✅ 优秀的访问速度
+- ✅ **白天** / **黑夜** 模式可用
+- ✅ 为丰富文章内容提供的各种组件
+  - 多样的 Alert
+  - 代码框复制按钮
+  - 更多 [daisyUI](https://daisyui.com/) 支持的内容……
+- ✅ 为丰富页面内容提供的各种组件
+  - 时间线组件
+  - 友链卡片组件
+- ✅ 使用 [Waline](https://waline.js.org/) 搭建的评论系统
+- ✅ 使用 [Tailwind CSS](https://tailwindcss.com/) 与 [daisyUI](https://daisyui.com/) 构建的漂亮页面
 
 > [!NOTE]
-> The comment system needs to be configured by oneself, please refer to [Waline](https://waline.js.org/) Change `src\components\Comment.astro`.
+> 评论系统需自己配置，详见 [Waline](https://waline.js.org/) 更改 `src\components\Comment.astro`
 
-## 🚀 Project Structure
+## 🚀 项目结构
 
 ```sh
 \Frosti
@@ -103,40 +108,40 @@
 └── view.png
 ```
 
-## ✒️ Article Information
+## ✒️ 文章信息
 
-|    Name    |       Meaning       | Mandatory |
-| :---------: | :-----------------: | :-------: |
-|    title    |    Article title    |    Yes    |
-| description | Article description |    Yes    |
-|   pubDate   |    Article date    |    Yes    |
-|    image    |    Article cover    |    No    |
-|    tags    |    Article tags    |    No    |
-|    badge    |    Article badge    |    No    |
+|    名称    |   含义   | 是否必要 |
+| :---------: | :------: | :------: |
+|    title    | 文章标题 |    是    |
+| description | 文章简介 |    是    |
+|   pubDate   | 文章日期 |    是    |
+|    image    | 文章封面 |    否    |
+|    tags    | 文章标签 |    否    |
+|    badge    | 文章徽标 |    否    |
 
-## ⬇️ Usage
+## ⬇️ 使用方法
 
-Use Frosti by passing the `--template` parameter to the `create astro` command!
+通过将 `--template` 参数传递给 `create astro` 命令来使用 Frosti ！
 
 ```sh
 npm create astro@latest -- --template EveSunMaple/Frosti
 ```
 
-## 🎯 Plans
+## 🎯 计划
 
-- [ ] Add table of contents (done but CSS not written yet)
-- [x] Add timeline component ~~(Apr 21, 2024)~~
-- [x] Add friends component ~~(Apr 21, 2024)~~
+- [ ] 添加目录(已做好但没有写 CSS )
+- [x] 添加时间线组件 ~~(Apr 21, 2024)~~
+- [x] 添加友链组件 ~~(Apr 21, 2024)~~
 
-## 👀 Issues
+## 👀 问题
 
-- [ ] `global.css` is too messy
-- [ ] **Light** / **Dark** mode transition currently not implemented
-- [x] ~~Website score has not reached 400 points yet~~ `GET IT✨`
+- [ ] `global.css` 过于混乱
+- [ ] **白天** / **黑夜** 模式目前无法实现缓动
+- [x] ~~网站评分还没有到达 400 分~~ `已经达成✨`
 
-## 🎉 Thanks
+## 🎉 感谢
 
-@[Saicaca](https://github.com/saicaca) His inspiration was the main reason for me to create this theme.
+@[Saicaca](https://github.com/saicaca) 他的启迪是我制作此主题的主要原因
 
-@[WRXinYue](https://github.com/WRXinYue) Helped me a lot when I was first starting out.
+@[WRXinYue](https://github.com/WRXinYue) 在我前期入门时帮助了我很多
 
