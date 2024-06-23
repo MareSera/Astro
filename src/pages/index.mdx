@@ -93,8 +93,6 @@ import LinkCard from "../components/page/LinkCard.astro";
           这是一个高中生的小站点！
 
           在努力进步！勤奋学习！
-
-          本站现已推出APP版本！（bug诸多，在修了）：[点此下载](/MareSera_blog.apk)
       </div>
     </div>
   </BaseCard>
@@ -112,7 +110,21 @@ import LinkCard from "../components/page/LinkCard.astro";
 
     ---
 
-    Content
+    ### 推荐！
+
+    <div class="grid grid-cols-1 gap-4">
+    <LinkCard
+        title="本站公告！"
+        desc="入站须知！一定要来看看~"
+        badge=""
+        url="https://blog.maresera.top/blog/%E7%BD%AE%E9%A1%B6%E6%9C%AC%E7%AB%99%E5%85%AC%E5%91%8A"
+      />
+   </div>
+
+
+    ---
+
+    ### Content
 
   <div class="grid grid-cols-2 gap-4">
     <LinkCard
@@ -140,5 +152,6 @@ import LinkCard from "../components/page/LinkCard.astro";
         url="https://blog.maresera.top/friend"
       />
   </div>
+
       </BaseCard>
 </BaseLayout>
